@@ -1,0 +1,57 @@
+.messages__header {
+    height: 92px;
+    padding-left: 26px;
+    padding-right: 26px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    &__left-content {
+        align-items: center;
+        display: inline-flex;
+        &__text {
+            font-size: 16px;
+            color: #515151;
+            font-weight: 500;
+            margin-left: 3px;
+            h1 {
+                color: #000;
+                font-size: 16px;
+                font-weight: 500;
+                margin-bottom: 7px;
+                letter-spacing: 0.75px;
+                align-items: center;
+                display: inline-flex;
+            }
+            p {
+                font-size: 16px;
+                color: #515151;
+                font-weight: 500;
+            }
+        }
+    }
+    &__online-dot {
+        width: 10px;
+        height: 10px;
+        display: block;
+        margin-left: 7px;
+        border-radius: 50%;
+        background-color: #4ADD44;
+    }
+    &__right-content {
+        display: inline-flex;
+    }
+    &__status {
+        font-size: 16px;
+        color: #515151;
+        font-weight: 500;
+        margin-left: 35px;
+        display: flex;
+        &:first-child {
+            margin-left: 0;
+        }
+        i {
+            color: #8B8B8B;
+            margin-right: 8px;
+        }
+    }
+}

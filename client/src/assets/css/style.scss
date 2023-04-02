@@ -1,0 +1,24 @@
+@import "./reset.css";
+@import "./font-awesome.css";
+
+body {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  position: relative;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+ul {
+  padding: 0 0;
+  list-style: none;
+}

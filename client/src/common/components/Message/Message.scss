@@ -1,0 +1,22 @@
+.message-list__message {
+    justify-content: flex-start;
+    display: flex;
+    &.message-list__message-right {
+        justify-content: flex-end;
+        span {
+            color: #fff;
+            border-radius: 60px 60px 0 60px;
+            background-color: #01AAF3;
+        }
+    }
+    span {
+        color: #000;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 15px;
+        padding: 13px 24px;
+        border-radius: 60px 60px 60px 0;
+        background-color: #fff;
+        display: inline-flex;
+    }
+}

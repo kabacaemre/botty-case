@@ -1,0 +1,45 @@
+.messages__footer {
+    height: 100px;
+    padding-left: 26px;
+    padding-right: 26px;
+    background: white;
+    align-items: center;
+    display: flex;
+    input {
+        flex: 1 1;
+        height: 50px;
+        font-size: 16px;
+        color: #01AAF3;
+        font-weight: 500;
+        // border-right: 1px solid #d4d4d4 !important;
+        outline: 0;
+        border: 0;
+        &::placeholder {
+            font-size: 16px;
+            color: #01AAF3;
+            font-weight: 500;
+        }
+        &:hover, &:focus {
+            outline: 0;
+            border: 0;
+        }
+    }
+    &__actions {
+        display: flex;
+        align-items: center;
+        button {
+            padding: 0 0;
+            font-size: 16px;
+            color: #515151;
+            font-weight: 700;
+            margin-left: 20px;
+            background-color: transparent;
+            display: inline-flex;
+            outline: 0;
+            border: 0;
+            &:disabled {
+                color: rgba(81, 81, 81, 0.45);
+            }
+        }
+    }
+}

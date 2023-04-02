@@ -1,0 +1,37 @@
+.user-list {
+    width: 340px;
+    height: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    &__header {
+        width: 100%;
+        height: 92px;
+        padding: 0 20px;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        &__left {
+            gap: 6px;
+            cursor: pointer;
+            color: #A8A8A8;
+            align-items: center;
+            display: inline-flex;
+            &__text {
+                font-size: 17px;
+                color: #8B8B8B;
+                font-weight: 500;
+            }
+            &__icon {
+                top: 1px;
+                color: #A8A8A8;
+                position: relative;
+            }
+        }
+        &__right {
+            &__icon {
+                font-size: 20px;
+                color: #9E9E9E;
+            }
+        }
+    }
+}
