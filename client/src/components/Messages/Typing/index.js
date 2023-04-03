@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react';
 
-import "./Typing.scss";
+import './Typing.scss';
 
 function Typing() {
   const [numberOfDots, setDots] = useState(1);
@@ -19,7 +19,7 @@ function Typing() {
 
   return (
     <span key="typing" className="messages__message--typing">
-      {`Typing${"".padStart(numberOfDots, ".")}`}
+      {`Typing${''.padStart(numberOfDots, '.')}`}
     </span>
   );
 }

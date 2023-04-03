@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Avatar from "../../../assets/img/logo.png"
-import UserAvatar from "../../../common/components/UserAvatar"
+import Avatar from '../../../assets/img/logo.png';
+import UserAvatar from '../../../common/components/UserAvatar';
 
 import './Header.scss';
 
@@ -11,7 +11,9 @@ function Header() {
       <div className="messages__header__left-content">
         <UserAvatar profileImg={Avatar} name="ssttek" color="#FFFFFF" />
         <div className="messages__header__left-content__text">
-          <h1>ssttek <i className="messages__header__online-dot"></i></h1>
+          <h1>
+            ssttek <i className="messages__header__online-dot" />
+          </h1>
           <p>Cloud, The Internet</p>
         </div>
       </div>

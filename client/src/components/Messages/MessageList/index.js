@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import Message from "../../../common/components/Message";
+import Message from '../../../common/components/Message';
 
-import "./MessageList.scss";
+import './MessageList.scss';
 
 function MessageList({ messages }) {
   return (
@@ -10,9 +10,7 @@ function MessageList({ messages }) {
       {messages && (
         <>
           {messages.map((msg, i) => {
-            return (
-              <Message key={i} {...msg} />
-            );
+            return <Message key={i} {...msg} />;
           })}
         </>
       )}

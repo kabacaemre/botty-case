@@ -1,12 +1,12 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice } from '@reduxjs/toolkit';
 
 export const messagesSlice = createSlice({
   name: 'messages',
   initialState: {
     messages: [
-      {message: "Hi! My name’s Botty.", messageType: 1},
-      {message: "Hi Botty! How are you?", messageType: 2},
-      {message: "Living the dream", messageType: 1},
+      { message: 'Hi! My name’s Botty.', messageType: 1 },
+      { message: 'Hi Botty! How are you?', messageType: 2 },
+      { message: 'Living the dream', messageType: 1 },
     ],
   },
   reducers: {
@@ -14,8 +14,8 @@ export const messagesSlice = createSlice({
       state.messages.push(action.payload);
     },
   },
-})
+});
 
-export const { addMessage } = messagesSlice.actions
+export const { addMessage } = messagesSlice.actions;
 
-export default messagesSlice.reducer
+export default messagesSlice.reducer;

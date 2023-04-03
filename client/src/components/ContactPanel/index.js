@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import Avatar from "../../assets/img/logo_large.png"
-import "./ContactPanel.scss";
+import Avatar from '../../assets/img/logo_large.png';
+import './ContactPanel.scss';
 
 function ContactPanel() {
   return (
@@ -45,7 +45,9 @@ function ContactPanel() {
             <li>bot_face.jpg</li>
             {/* <li>botty_face.jpg</li> */}
           </ul>
-          <button type="button" className="contact-panel__body__link">View All</button>
+          <button type="button" className="contact-panel__body__link">
+            View All
+          </button>
         </div>
         <button className="contact-panel__body__edit-btn">React</button>
       </div>

@@ -3,7 +3,11 @@ import React from 'react';
 import './UserAvatar.scss';
 
 function getInitials(string) {
-  return string.match(/\b(\w)/g).slice(0, 2).join('').toUpperCase();
+  return string
+    .match(/\b(\w)/g)
+    .slice(0, 2)
+    .join('')
+    .toUpperCase();
 }
 
 function UserAvatar({ profileImg, name, color }) {

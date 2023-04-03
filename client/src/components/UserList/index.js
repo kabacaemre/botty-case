@@ -1,9 +1,9 @@
-import React from "react";
-import { useSelector } from "react-redux";
+import React from 'react';
+import { useSelector } from 'react-redux';
 
-import User from "./User";
+import User from './User';
 
-import "./UserList.scss";
+import './UserList.scss';
 
 function UserList() {
   const { users } = useSelector((state) => state.users);

@@ -1,16 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import "./Message.scss";
+import './Message.scss';
 
 function Message({ message, messageType }) {
   return (
-    <div
-      className={`message-list__message ${
-        messageType === 2
-          ? "message-list__message-right"
-          : ""
-      }`}
-    >
+    <div className={`message-list__message ${messageType === 2 ? 'message-list__message-right' : ''}`}>
       <span>{message}</span>
     </div>
   );
